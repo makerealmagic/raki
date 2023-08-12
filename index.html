@@ -1,77 +1,47 @@
 <html>
     <head>
-        <title>checking...</title>
+        <title>
+            login...
+        </title>
         <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
         <style>
             *{
-                padding: 0;
                 margin: 0;
+                padding: 0;
                 box-sizing: border-box;
             }
             body{
-                background-color: rgb(226, 43, 58);
-                
+                background-color: #3e4ca1;
             }
-            div.container{
-                background-color: rgb(144, 84, 201);
+            .container{
+                min-height: 600px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /*border: 1px solid black;*/
             }
-            .p50{
-                padding: 30px;
+            .container>form{
+                min-width: 300px;
+                min-height: 400px;
+                border: 2px solid black;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
             }
-            .container.color-1{
-                background-color:rgb(207, 163, 248);
-            }
-            .grid-layouts.container{
-                border: 1px solid red !important;
-                height: 500px;
-            }
-            .bg{
-                border:1px solid aqua;
-            }
-            
-            
         </style>
     </head>
     <body>
-        <div class="container p50">
-            <h1>Boostrap learning...</h1>
+        <div class="container">
+            <form>
+                <h4>Login-in</h4>
+                <input type="text" name="uname" placeholder="Enter the username">
+                <br><br>
+                <input type="password" name="pwd" placeholder="Enter the password"><br><br>
+                <input type="submit" value="Sign-in">
+            </form>
         </div>
-        <div class="container color-1 height-500">
-            <h5>boostrap grids...</h5>
-            <div class="grid-layouts container text-center">
-                <div class="row">
-                    <div class="col-sm bg">Row 1 Col 1</div>
-                    <div class="col-sm bg">Row 1 Col 2</div>
-                    <div class="col-sm bg">Row 1 Col 3</div>
-                    <div class="col-sm bg">Row 1 Col 4</div>                    
-
-
-                </div>
-                <div class="row">
-                    <div class="col-sm-2 bg">Row2 Col1</div>
-                    <div class="col-sm bg">Row2 Col2</div>
-                    <div class="col-sm bg align-self-center">Row2 Col3</div>
-                    <div class="col-sm-2 bg">Row2 Col4</div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2 bg">row 3 col 1</div>
-                    <div class="col-md-4 bg">row 3 col 2</div>
-                    <div class="col-md-4 col-sm-6 bg">email</div>
-                    <div class="col-md-2 col-sm-6 bg">mobile</div>
-
-                    
-                    
-
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
-
 
 
         <script src="./assets/js/bootstrap.min.js"></script>
