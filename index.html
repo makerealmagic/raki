@@ -6,6 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>navbar</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+<<<<<<< HEAD
+=======
+    <style>
+        .heart{
+            width: 50px;
+            height: 50px;
+        }
+        .heart img{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .color{
+            background-color: red;
+        }
+        .heart:hover{
+            filter: drop-shadow(20px 20px 20px red);
+        }
+    </style>
+>>>>>>> c9647ba92f5c48f2c1fe536f6d375468a039b3d4
 </head>
 <body>
     <nav class="navbar navbar-expand-md navbar-dark">
@@ -82,12 +103,33 @@
             <hr>
 
             <button class="btn btn-success btn-block">proceed to next page</button>
+<<<<<<< HEAD
+=======
+
+            <div class="heart">
+                <img src="./heart.png" alt="heart">
+            </div>
+>>>>>>> c9647ba92f5c48f2c1fe536f6d375468a039b3d4
 
 
         </div>
     </div>
 
+<<<<<<< HEAD
 
+=======
+    <script>
+        var heart = document.querySelector(".heart");
+        heart.addEventListener("click", function(){
+            heart.classList.toggle("color");
+        })
+        document.addEventListener("dblclick",function(){
+            heart.style.backgroundColor = "red";
+        })
+        
+        
+    </script>
+>>>>>>> c9647ba92f5c48f2c1fe536f6d375468a039b3d4
 
 
 
